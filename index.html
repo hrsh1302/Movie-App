@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Movie App</title>
+    </head>
+    <body>
+        <!-- Navbar with title and search bar with buttons -->
+        <div class="navbar">
+                <h1 id="title">MovieDB App</h1>
+                <!-- Search Form -->
+                <form id="form">
+                    <input type="text" id="search" placeholder="Search Movies ...">
+                    <button class="clear-btn" type="button" id="clearSearch">X</button>
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+        </div>
+        <!-- Movie Cards -->
+        <div class="container">
+            <main id="main" class="cards-container"></main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
